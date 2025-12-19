@@ -9,7 +9,7 @@ import argparse
 from shor_and_grover_main import *
 
 def test_installation():
-    """Test if all packages are properly installed."""
+    """Test if packages are properly installed."""
     print("Testing installation...")
     return verify_installation()
 
@@ -160,4 +160,5 @@ def main():
     sys.exit(0 if success else 1)
 
 if __name__ == "__main__":
+
     main()
