@@ -8,7 +8,7 @@ from shor_and_grover_main import *
 import time
 
 def print_header(title):
-    """Print a formatted header."""
+    """Print formatted header."""
     print("\n" + "=" * 80)
     print(f"{title:^80}")
     print("=" * 80)
@@ -190,4 +190,5 @@ def run_final_demonstration():
 
 if __name__ == "__main__":
     demonstrate_project_capabilities()
+
     run_final_demonstration()
