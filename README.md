@@ -1,6 +1,6 @@
 ## Overview
 
-This project implements and analyzes fault-tolerant quantum circuits using PyMatching, Stim, and sinter. It demonstrates how quantum error correction can protect quantum algorithms from noise, which is crucial for practical quantum computing.
+This project implements and analyzes fault-tolerant quantum circuits using PyMatching, Stim, and sinter. It demonstrates how quantum error correction can protect quantum algorithms from noise, which is crucial for real-world quantum computing.
 
 ## Project Structure
 
@@ -180,3 +180,4 @@ To extend this project:
 3. Implement additional error correction codes
 4. Enhance visualization and analysis
 5. Submit pull requests with improvements
+
