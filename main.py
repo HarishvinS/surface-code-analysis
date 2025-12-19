@@ -7,7 +7,7 @@ from typing import List, Tuple, Dict
 import time
 
 def verify_installation():
-    """Verify that all required packages are installed and functional."""
+    """Verify that required packages are installed and functional."""
     try:
         import stim
         import pymatching
@@ -471,4 +471,5 @@ def run_quantum_fault_tolerance_project():
     print("\nProject complete! Check 'qnn_fault_tolerance_results.png' for visualization.")
 
 if __name__ == "__main__":
+
     run_quantum_fault_tolerance_project()
